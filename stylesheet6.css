@@ -1,0 +1,22 @@
+.kazoku-section {
+  height: 500px;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.member {
+  float: left;
+  width: 33%;
+}
+
+.member-icon {
+  position: relative;
+  width: 180px;
+  margin-top: 65px;
+  border-radius: 50%;
+}
+
+.member-icon p {
+  position: relative;
+  top: 65px;
+}

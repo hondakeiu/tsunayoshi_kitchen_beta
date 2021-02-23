@@ -1,0 +1,133 @@
+.gohan-section {
+  height: 6950px;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.ichioshi-section {
+  height: 2130px;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.jan-section {
+  height: 2430px;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.syokuzai-section {
+  height: 3050px;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.jikan-section {
+  height: 1210px;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.recipes {
+  width: 100%;
+}
+
+.recipe {
+  float: left;
+  padding: 25px 100px;
+  width: 100%;
+}
+
+.mieru {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  color: #444;
+}
+
+.mieru:hover{
+  text-decoration: none;
+}
+
+.mieru:after {
+  content: "";
+  position: absolute;
+  left: 750px;
+  top: 30%;
+  margin-top: 17px;
+  transition: all 0.2s ease-in-out;
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-top: solid 4px #b4aeb1;
+  border-right: solid 4px #b4aeb1;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.mieru.open:after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 45%;
+}
+
+.mieru p {
+  float: left;
+  width: 40%;
+  margin: 10px 0 0 0 ;
+  color: #555;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.poti {
+  height: 25px;
+  padding: 0 10px;
+  vertical-align: sub;
+}
+
+.hi {
+  width: 50px;
+  padding: 0 5px;
+  vertical-align: sub;
+}
+
+.haba {
+  margin: 20px 0 0 0;
+  width: 30%;
+}
+
+.haba img {
+ float: left;
+ margin-top: 10px;;
+ width: 200px;
+ }
+
+.recipe-txt {
+  width: 70%;
+  float: left;
+  margin-left: 60px;
+  display: inline-block;
+  font-size: 14px;
+  color: #555;
+  line-height: 22px;
+}
+
+h4 {
+  color: #444;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.kakure {
+  width: 100%;
+}
+
+.tsukurikata {
+  display:inline-table;
+  width: 100%;
+  font-size: 14px;
+  color: #555;
+}

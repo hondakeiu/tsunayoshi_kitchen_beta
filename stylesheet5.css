@@ -1,0 +1,63 @@
+.qa-section-top {
+  text-align: center;
+  height: 380px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: #555;
+}
+
+.tsunayoshi img {
+  vertical-align: bottom;
+  padding: 0 6px;
+  height: 30px;
+}
+
+.qa-section-bottom {
+  padding-top: 160px;
+}
+
+.qa-box {
+  display: inline-block;
+  vertical-align: top;
+  width: 44%;
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+
+.qa-image {
+  padding: 20px;
+  width: 280px;
+  border-radius: 50%;
+}
+
+.qa-section-bottom p {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.qa-box {
+  color: #555;
+}
+
+.qa-box h4 {
+  color: #444;
+}
+
+.btn {
+  color: #fff;
+  padding: 8px 24px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  background-color: #544851;
+  margin: 0px 0px;
+}
+
+.btn:hover {
+  opacity: 1;
+  color: #f0e68c;
+}
+
+.container p {
+  text-align: center;
+}
